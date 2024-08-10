@@ -1,0 +1,122 @@
+/* Styles for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eef1d1;
+}
+
+/* Logo and navigation links */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #556b2f;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #556b2f;
+    font-weight: bold;
+}
+
+/* Styles for the main content and layout */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Main content area */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+
+/* Title section */
+.title {
+    display: flex;
+    align-items: baseline;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+    color: #8b0000;
+    margin-right: 20px;
+}
+
+.title p {
+    color: #808080;
+    font-size: 14px;
+}
+
+/* Summary section */
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.summary img {
+    flex-basis: 30%;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.summary div {
+    flex-basis: 50%;
+    background-color: #eef1d1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.summary div p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #6b8e23;
+}
+
+/* Ingredients and Directions sections */
+.ingredients, .directions {
+    flex-grow: 1;
+    flex-basis: 45%;
+    margin-right: 5%;
+}
+
+.ingredients h2, .directions h2 {
+    font-size: 18px;
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+/* Related content area */
+.related-content {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.related-content h2 {
+    font-size: 14px;
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+.related-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-content ul li {
+    font-size: 14px;
+    color: #6b8e23;
+    margin-bottom: 5px;
+}
